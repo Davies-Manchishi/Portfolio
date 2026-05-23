@@ -21,11 +21,11 @@ const pages = {
                     <p class="hero-badge">SOFTWARE ENGINEERING STUDENT & FULL-STACK DEVELOPER</p>
                     <h1 class="hero-title">Building <span>High-Performance</span> Systems</h1>
                     <p class="hero-description">I'm Davies — I architect full-stack applications and AI-driven systems. From production-grade RAG assistants to medical healthcare dashboards, I build software that delivers real impact.</p>
-                    <div class="hero-buttons">
                     <p style="color: var(--slate-400); font-size: 0.9rem; margin-top: -6px; margin-bottom: 30px; text-align: center;">
-    <span style="color: var(--cyan-400); font-weight: 600;">Core stack:</span> 
-    React · TypeScript · Node.js · PostgreSQL · Python · Docker · Linux
-</p>
+                        <span style="color: var(--cyan-400); font-weight: 600;">Core stack:</span> 
+                        React · TypeScript · Node.js · PostgreSQL · Python · Docker · Linux
+                    </p>
+                    <div class="hero-buttons">
                         <button class="btn btn-primary" onclick="navigateTo('projects')">
                             View My Work
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -33,7 +33,7 @@ const pages = {
                         <button class="btn btn-outline" onclick="navigateTo('contact')">Get In Touch</button>
                     </div>
                     <div class="hero-socials">
-                        <a href="https://github.com/Childbaby" target="_blank" rel="noopener">
+                        <a href="https://github.com/Davies-Manchishi" target="_blank" rel="noopener">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                         </a>
                         <a href="https://linkedin.com/in/davies-manchishi" target="_blank" rel="noopener">
@@ -47,7 +47,7 @@ const pages = {
             </div>
         </section>
     `,
-        projects: `
+    projects: `
         <section id="projectsPage">
             <div class="container" style="padding-top: 100px;">
                 <div class="section-heading">
@@ -60,7 +60,6 @@ const pages = {
                     <!-- Project 1: Campus Operations Platform (In Progress) -->
                     <div class="project-card">
                         <div class="project-image">
-                            <!-- Campus/Building Icon -->
                             <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
                                 <rect x="4" y="2" width="16" height="20" rx="1"/>
                                 <line x1="9" y1="6" x2="9" y2="10"/>
@@ -83,22 +82,21 @@ const pages = {
                                 <span class="project-tag">Docker</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/Childbaby/campus-operations" target="_blank" rel="noopener" class="project-link-source">
+                                <a href="https://github.com/Davies-Manchishi/campus-operations" target="_blank" rel="noopener" class="project-link-source">
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     Source
                                 </a>
-                               <span class="status-badge in-progress" style="margin-left: auto;">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-    In Progress
-</span>
+                                <span class="status-badge in-progress" style="margin-left: auto;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                    In Progress
+                                </span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Project 2: Enterprise RAG (Completed) -->
+                    <!-- Project 2: Enterprise RAG (Private Prototype) -->
                     <div class="project-card">
                         <div class="project-image">
-                            <!-- AI Brain/Neural Icon -->
                             <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
                                 <circle cx="12" cy="12" r="9"/>
                                 <path d="M12 3v2"/>
@@ -123,22 +121,21 @@ const pages = {
                                 <span class="project-tag">Next.js</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/Childbaby/enterprise-rag" target="_blank" rel="noopener" class="project-link-source">
+                                <a href="https://github.com/Davies-Manchishi/enterprise-rag" target="_blank" rel="noopener" class="project-link-source">
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     Source
                                 </a>
-                                <a href="https://enterprise-rag-demo.vercel.app" target="_blank" rel="noopener" class="project-link-demo">
-                                    Live Demo
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                </a>
+                                <span style="color: var(--cyan-400); font-size: 0.78rem; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; margin-left: auto;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                    Private Prototype
+                                </span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Project 3: ProcBlock (Completed) -->
+                    <!-- Project 3: ProcBlock (Private Prototype) -->
                     <div class="project-card">
                         <div class="project-image">
-                            <!-- Medical/Health Dashboard Icon -->
                             <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
                                 <rect x="2" y="3" width="20" height="14" rx="2"/>
                                 <line x1="8" y1="21" x2="16" y2="21"/>
@@ -159,14 +156,14 @@ const pages = {
                                 <span class="project-tag">Docker</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/Childbaby/procblock" target="_blank" rel="noopener" class="project-link-source">
+                                <a href="https://github.com/Davies-Manchishi/procblock" target="_blank" rel="noopener" class="project-link-source">
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     Source
                                 </a>
-                                <a href="https://procblock-demo.vercel.app" target="_blank" rel="noopener" class="project-link-demo">
-                                    Live Demo
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                </a>
+                                <span style="color: var(--cyan-400); font-size: 0.78rem; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; margin-left: auto;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                    Private Prototype
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -174,7 +171,6 @@ const pages = {
                     <!-- Project 4: URL Shortener + Analytics (Not Started) -->
                     <div class="project-card">
                         <div class="project-image">
-                            <!-- Link/Chain Icon -->
                             <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
                                 <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
                                 <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
@@ -191,7 +187,7 @@ const pages = {
                                 <span class="project-tag">Redis</span>
                                 <span class="project-tag">Docker</span>
                             </div>
-                                                        <div class="project-links" style="justify-content: center;">
+                            <div class="project-links" style="justify-content: center;">
                                 <span class="status-badge coming-soon">
                                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                                     Coming Soon
@@ -203,7 +199,6 @@ const pages = {
                     <!-- Project 5: Davies CLI (Not Started) -->
                     <div class="project-card">
                         <div class="project-image">
-                            <!-- Terminal/CLI Icon -->
                             <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
                                 <polyline points="4 17 10 11 4 5"/>
                                 <line x1="12" y1="19" x2="20" y2="19"/>
@@ -223,12 +218,11 @@ const pages = {
                                 <span class="project-tag">npm</span>
                                 <span class="project-tag">Shell</span>
                             </div>
-                                                        <div class="project-links" style="justify-content: center;">
+                            <div class="project-links" style="justify-content: center;">
                                 <span class="status-badge coming-soon">
                                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                                     Coming Soon
                                 </span>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -237,7 +231,7 @@ const pages = {
             </div>
         </section>
     `,
-        experience: `
+    experience: `
         <section id="experiencePage">
             <div class="container" style="padding-top: 100px;">
                 <div class="section-heading">
@@ -247,7 +241,6 @@ const pages = {
                 </div>
                 <div class="timeline">
                     
-                    <!-- Timeline Item 1: Education -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <span class="timeline-year">2024 - Present</span>
@@ -263,7 +256,6 @@ const pages = {
                         </div>
                     </div>
 
-                    <!-- Timeline Item 2: Mentorship -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <span class="timeline-year">2024 - Present</span>
@@ -278,7 +270,6 @@ const pages = {
                         </div>
                     </div>
 
-                    <!-- Timeline Item 3: Projects & Self-Development -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <span class="timeline-year">2023 - Present</span>
